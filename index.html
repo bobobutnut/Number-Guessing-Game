@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>free joy from memory dump</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<h1 class="text">Free Joy from the Memory Dump!</h1>
+	<h2 class="text">Joy and Bing Bong are trapped together in the Memory Dump, the only way they can escape is to power the old wagon by guessing the correct password!
+
+You only have 10 guesses and limited time (you will be alerted every 10 seconds).
+
+If you can't guess the correct password by then, the wagon will be broken, and you will be trapped here forever!
+Enter your guess carefully:
+(Hint: The password is a number between 1 and 100.)</h2>
+	<img id="bingbong" src="crying-bing-bong.png">
+	<div class="form">
+	<h2 class="text" id="greentext">Enter your guess carefully</h2>
+	<h2 class="text">(Hint: The password is a number between 1 and 100)</h2>
+	<input type="text" id="guessField" class="guessField">
+	<input type="submit" value="Submit my Guess!" class="guessSubmit">
+	</div>
+
+
+	<div class="outcome">
+		<p class="guesses"></p>
+		<p class="result"></p>
+		<p class="comparison"></p>
+	</div>
+	<script src="script.js"></script>
+</html>

@@ -1,0 +1,44 @@
+#bingbong{
+	height: 120px;	
+}
+
+#greentext{
+	color: green;
+} 
+
+body{
+	background-image: url("background-image.jpg");
+	background-size: cover;
+	text-align: left;
+	width: 50%;
+	margin: 0%;
+	margin-left: 45%; 
+}
+
+*{
+	color: white;
+	font-family: montserrat;
+
+}
+.guessSubmit{
+	background-color: lightgreen;
+	border:none;
+	cursor: pointer;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.guessField{
+	color: black;
+}
+.result{
+	color: white;
+	padding: 3px;	
+}
+#myBtn{
+	color: blue;
+	font-size: 20px;
+}
